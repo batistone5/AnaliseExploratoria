@@ -35,44 +35,39 @@ Definições das medidas utilizads no Script 2:
 Média:
 
 A média aritmética representa o valor médio das observações:
-\[
-\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
-\]
+
+média = (1/n) × soma dos xi
 
 Mediana:
 
 A mediana é o valor central dos dados ordenados.
 
-Se \(n\) é ímpar:
-\[
-\text{Mediana} = x_{\frac{n+1}{2}}
-\]
+Se n é ímpar:
 
-Se \(n\) é par:
-\[
-\text{Mediana} = \frac{x_{\frac{n}{2}} + x_{\frac{n}{2}+1}}{2}
-\]
+(n + 1) / 2
+
+Se n é par:
+
+a mediana é a média dos valores nas posições n/2 e n/2 + 1.
 
 Variância:
 
 A variância mede o grau de dispersão das observações em relação à média:
-\[
-s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2
-\]
+
+variância = (1/(n – 1)) × soma de (xi – média)²
 
 Desvio Padrão:
 
 O desvio padrão é a raiz quadrada da variância e expressa a dispersão na mesma escala dos dados:
-\[
-s = \sqrt{s^2}
-\]
+
+s = raiz quadrada da variância
+
 
 Amplitude:
 
 A amplitude é a diferença entre o maior e o menor valor observado:
-\[
-\text{Amplitude} = \max(x_i) - \min(x_i)
-\]
+
+amplitude = max(xi) - minimo(xi)
 
 
 
